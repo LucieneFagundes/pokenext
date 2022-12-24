@@ -45,7 +45,7 @@ export default function Pokemon({ pokemon }: any) {
       <Link href="/"><a className={styles.link}>Voltar</a></Link>
       <h1 className={styles.pokemon_title}>{pokemon.name}</h1>
       <Image
-        src={`https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`}
+        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${pokemon.id}.svg`}
         width="200"
         height="200"
         alt={pokemon.name}
